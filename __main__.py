@@ -1,6 +1,6 @@
-from start import *
+from WebpageClass import *
 from bs4 import BeautifulSoup
-from xmlThing import dictionaryToXML
+from DictionaryConverter import dictionaryToXML
 
 likedVideos = Youtube(
     'https://www.youtube.co.uk/playlist?list=LLvI2sZXK-MUg5fsusK3l4LA')

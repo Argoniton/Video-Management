@@ -1,4 +1,5 @@
 def dictionaryToXML(dictionary):
+    ''' a function to convert a python dictionary to xml file '''
     returnXML = ''
     def escape(string):
         ''' made to convert strings supported by xml'''
